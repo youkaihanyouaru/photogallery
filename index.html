@@ -1,59 +1,126 @@
-TK Photography
-About
-Gallery
-Contact
-^ top
-About
-TK.png
+<!DOCTYPE html>
+<html lang="en">
 
-Hello! 
-I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. 
-Gallery
-Here are some highlights of my work. 
-The locations and year are in the caption. 
+<head>
+  <link rel="stylesheet"
+        href="style.css">
+  <title>TK Photo Gallery</title>
+</head>
 
-Chile.png
-Chile, 2001
+<body>
+   <header id="top">
+    <h1>TK Photography</h1>
+    <nav>
+      <h2>Main Navigation</h2>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="top"><a href="#top">^<br>TOP</a></li>
+      </ul>
+    </nav>
+  </header>
 
-Guatemala.png
-Guatemala, 1997
+  <main>
+    
+    <section id="about">
+      <h2>About</h2>
+      <img src="images/TK.png" id="aboutImg" alt="Photographer TK silhouetted with sunset">
+      <p>Hello! <br>
+I’m TK and I’m a photographer.<br>I love looking at life through the lens of my <br>camera. Landscape photography is my<br> speciality and it’s taken me all over the world.</p>
+    </section>
+    
+    <section id="gallery">
+      <h2>Gallery</h2>
+        <p>Here are some highlights of my work. 
+  The locations and year are in the caption. </p>
+        </section>
+    
+        <div>
+        <figure class="small">
+          <img src="images/Chile.png" alt="beautiful beach at sunset">
+          <figcaption class="tlb">Chile, 2001</figcaption>
+      </figure>
+      
+        <figure class="small">
+          <img src="images/Guatemala.png" alt="lake surrounded by mountains and flowers at sunset">
+          <figcaption class="tlw">Guatemala, 1997</figcaption>
+      </figure>
+          
+        <figure class="small">
+          <img src="images/Hawaii.png" alt="island mountains and ocean">
+          <figcaption class="brw">Hawaii, 2010</figcaption>
+      </figure>
 
-Hawaii.png
-Hawaii, 2010
+        <figure class="tall">
+          <img src="images/Iran.png" alt="bushy dry plains at sunrise">
+          <figcaption class="tlb">Iran, 1999</figcaption>
+      </figure>
 
-Iran.png
-Iran, 1999
+        <figure class="tall">
+          <img src="images/Ireland.png" alt="lush rolling hills with fog">
+          <figcaption class="brw">Ireland, 2012</figcaption>
+      </figure>
 
-Ireland.png
-Ireland, 2012
+        <figure class="tall">
+          <img src="images/Italy.png" alt="mountain lake between trees">
+          <figcaption class="blw">Italy, 2015</figcaption>
+      </figure>
+      
+        <figure class="small">
+          <img src="images/Moab-Desert.png" alt="sunset shining between cliffs">
+          <figcaption class="brw">Moab Desert, 2020</figcaption>
+      </figure>
 
-Italy.png
-Italy, 2015
+        <figure class="small">
+          <img src="images/Rocky-Mountains.png" alt="rocky cliffs over white river">
+          <figcaption class="tlb">Rocky Mountains, 2009</figcaption>
+      </figure>
 
-Moab-Desert.png
-Moab Desert, 2020
+        <figure class="small">
+          <img src="images/Switzerland.png" alt="foggy and snowy mountain view">
+          <figcaption class="blb">Switzerland, 2014</figcaption>
+      </figure>
 
-Rocky-Mountains.png
-Rocky Mountains, 2009
+        <figure class="small">
+          <img src="images/UK.png" alt="hilly plains">
+          <figcaption class="brw">UK, 2005</figcaption>
+      </figure>
 
-Switzerland.png
-Switzerland, 2014
+        <figure class="small">
+          <img src="images/USA.png" alt="field of wildflowers">
+          <figcaption class="tlw">USA, 2021</figcaption>
+      </figure>
 
-UK.png
-UK, 2005
+        <figure class="small">
+          <img src="images/Wyoming.png" alt="lake surrounded by evergreen trees">
+          <figcaption class="tlw">Wyoming, 2021</figcaption>
+      </figure>
+    </div>
+  </main>
+    
+   
+    <section id="contact">  
+      <h2>Contact</h2>
+        <p>Please fill out this form and I’ll connect with you soon.</p>
 
-USA.png
-USA, 2021
+        <form>
+          <h3>Your contact information</h3>
+          <label>Name</label>
+            <input type="text" placeholder="Your full name">
+          <label>Email</label>
+            <input type="text" placeholder="Enter your email address">
+          <label>Message</label>
+            <input type="text" placeholder="What can I help you with?">
+          <button type="submit" class="button">Submit</button>
+      </form>
+    </section>
+  
+  <footer>
+    <p><small>Copyright 2021 TK Photography</small></p>
+  </footer>
+  
+  
+</body>
 
-Wyoming.png
-Wyoming, 2021
-Contact
-Please fill out this form and I’ll connect with you soon.
-
-Your contact information
-Name (Your full name)
-Email (Enter your email address)
-Message (What can I help you with?)
-Submit
-
-Copyright 2021 TK Photography
+</html>
