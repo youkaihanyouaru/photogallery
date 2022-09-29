@@ -1,0 +1,173 @@
+body {
+  background-color: #000000;
+  font-family: arial;
+  margin: auto;
+  width: 1310px;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+h1, h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h1 {
+  color:#007d7b;
+  display: inline-block;
+}
+
+nav {
+    text-align: right;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #000000;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;   
+    font-size: 20px;
+}
+
+nav a:hover {
+  color: #007d7b;
+}
+
+nav li {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+}
+
+nav h2 {
+    visibility: hidden;
+}
+
+[href="#top"] {
+  height: 50px;
+  width: 60px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: #007d7b;
+}
+
+.top a:hover {
+  color: #007d7b;
+  background-color: #ffffff;
+}
+
+#about p{
+    text-align: right;
+    color: #000000;
+    font-size: 20px;
+}
+
+#aboutImg {
+    width: 850px;
+    height:420px;
+}
+
+#gallery {
+  font-size: 20px;
+  color: #000000;
+}
+
+.small {
+        height: 281px;
+        width: 420px;
+        display: inline-block;
+}
+
+.tall {
+       height: 630px;
+       width: 420px;
+       display: inline-block;
+}
+
+figcaption {
+       font-size: 16px; 
+       display: inline-block;
+}
+
+.tlb{
+  position: relative;
+  color: #000000;
+}
+
+.brw{
+  position: relative;
+  color: #ffffff;
+}
+
+.tlw{
+  position: relative;
+  color: #ffffff;
+}
+
+.blw{
+  position: relative;
+  color: #ffffff;
+}
+
+.blb{
+  position: relative;
+  color: #000000;
+}
+
+#contact {
+    color: #ffffff;
+    width: 850px;
+    clear: both;
+    margin: 10px 230px;
+}
+
+#contact h2, p{
+  text-align: center;
+}
+
+ #contact h3 {
+    visibility: hidden;
+}
+
+form{
+  text-align: center;
+}
+
+label {
+  margin: 0 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+input {
+  width: 850px;
+  color: #007d7b;
+  display: inline-block;
+  background-color: #ffffff;
+  font-weight: bold;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.button {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #007d7b;
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+  margin: auto;
+}
+
+footer {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
