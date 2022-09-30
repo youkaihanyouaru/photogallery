@@ -24,6 +24,7 @@ nav {
     color: #ffffff;
     text-transform: uppercase;
     background-color: #000000;
+    float: right;
 }
 
 nav a {
@@ -65,10 +66,12 @@ nav h2 {
     text-align: right;
     color: #000000;
     font-size: 20px;
+    float: right;
 }
 
 #aboutImg {
     width: 850px;
+    float: left;
 }
 
 #gallery {
