@@ -94,30 +94,26 @@ nav h2 {
 figcaption {
        font-size: 16px; 
        display: inline-block;
+       position: relative;
 }
 
 .tlb{
-  position: relative;
   color: #000000;
 }
 
 .brw{
-  position: relative;
   color: #ffffff;
 }
 
 .tlw{
-  position: relative;
   color: #ffffff;
 }
 
 .blw{
-  position: relative;
   color: #ffffff;
 }
 
 .blb{
-  position: relative;
   color: #000000;
 }
 
