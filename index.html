@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet"
-        href="style.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
   <title>TK Photo Gallery</title>
 </head>
 
 <body>
    <header id="top">
     <h1>TK Photography</h1>
-    <nav>
+  <nav>
       <h2>Main Navigation</h2>
       <ul>
         <li><a href="#about">About</a></li>
@@ -19,8 +19,8 @@
         <li class="top"><a href="#top">^<br>TOP</a></li>
       </ul>
     </nav>
-  </header>
-
+   </header>
+  
   <main>
     
     <section id="about">
@@ -31,12 +31,12 @@ I’m TK and I’m a photographer.<br>I love looking at life through the lens of
     </section>
     
     <section id="gallery">
-      <h2>Gallery</h2>
-        <p>Here are some highlights of my work. 
+      <h2 class="left">Gallery</h2>
+        <p class="left">Here are some highlights of my work. 
   The locations and year are in the caption. </p>
         </section>
     
-        <div>
+        <section>
         <figure class="small">
           <img src="images/Chile.png" alt="beautiful beach at sunset">
           <figcaption class="tlb">Chile, 2001</figcaption>
@@ -96,7 +96,9 @@ I’m TK and I’m a photographer.<br>I love looking at life through the lens of
           <img src="images/Wyoming.png" alt="lake surrounded by evergreen trees">
           <figcaption class="tlw">Wyoming, 2021</figcaption>
       </figure>
-    </div>
+          
+          
+    </section>
   </main>
     
    
@@ -107,12 +109,12 @@ I’m TK and I’m a photographer.<br>I love looking at life through the lens of
         <form>
           <h3>Your contact information</h3>
           <label>Name</label>
-            <input type="text" placeholder="Your full name">
+            <input type="text" id="name" placeholder="Your full name">
           <label>Email</label>
-            <input type="text" placeholder="Enter your email address">
+            <input type="text" id="email" placeholder="Enter your email address">
           <label>Message</label>
-            <input type="text" placeholder="What can I help you with?">
-          <button type="submit" class="button">Submit</button>
+            <input type="text" id="message" placeholder="What can I help you with?">
+          <button type="submit" id="submit" class="button">Submit</button>
       </form>
     </section>
   
