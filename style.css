@@ -49,6 +49,7 @@ nav h2 {
 
 figure {
   float: left;
+  margin: 0;
 }
 
 figure:nth-child(n+3) {
@@ -74,12 +75,16 @@ figure, img {
   background-color: #ffffff;
 }
 
-#about p{
+#about p {
     text-align: right;
     color: #000000;
     font-size: 20px;
     float: right;
     width: 420px;
+}
+
+#about h2 {
+  text-align: right;
 }
 
 #aboutImg {
@@ -204,4 +209,5 @@ footer {
   color: #ffffff;
   font-size: 16px;
   text-align: center;
+  background-color: #000000;
 }
