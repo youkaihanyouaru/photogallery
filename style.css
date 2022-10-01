@@ -17,6 +17,7 @@ h1, h2 {
 h1 {
   color:#007d7b;
   display: inline-block;
+  float: left;
 }
 
 nav {
@@ -24,7 +25,6 @@ nav {
     color: #ffffff;
     text-transform: uppercase;
     background-color: #000000;
-    float: right;
 }
 
 nav a {
@@ -47,6 +47,18 @@ nav h2 {
     visibility: hidden;
 }
 
+figure {
+  float: left;
+}
+
+figure: nth-child(n+3) {
+  margin-left: 10px;
+}
+
+figure, img {
+  position: relative;
+}
+
 [href="#top"] {
   height: 50px;
   width: 60px;
@@ -67,16 +79,22 @@ nav h2 {
     color: #000000;
     font-size: 20px;
     float: right;
+    width: 420px;
 }
 
 #aboutImg {
     width: 850px;
     float: left;
+    margin-top: 10px;
 }
 
 #gallery {
   font-size: 20px;
   color: #000000;
+}
+
+.left {
+  clear: both;
 }
 
 .small {
@@ -94,28 +112,41 @@ nav h2 {
 figcaption {
        font-size: 16px; 
        display: inline-block;
-       position: relative;
-       top: -30px;
 }
 
 .tlb{
+  position: absolute;
   color: #000000;
+  top: 5px;
+  left: 5px;
 }
 
 .brw{
+  position: absolute;
   color: #ffffff;
+  bottom: 5px;
+  right: 5px;
 }
 
 .tlw{
+  position: absolute;
   color: #ffffff;
+  top: 5px;
+  left: 5px;
 }
 
 .blw{
+  position: absolute;
   color: #ffffff;
+  bottom: 5px;
+  left: 5px;
 }
 
 .blb{
+  position: absolute;
   color: #000000;
+  bottom: 5px;
+  left: 5px;
 }
 
 #contact {
@@ -125,7 +156,11 @@ figcaption {
     margin: 10px 230px;
 }
 
-#contact h2, p{
+#contact h2{
+  text-align: center;
+}
+
+#contact p {
   text-align: center;
 }
 
