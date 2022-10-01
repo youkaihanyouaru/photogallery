@@ -51,7 +51,7 @@ figure {
   float: left;
 }
 
-figure: nth-child(n+3) {
+figure:nth-child(n+3) {
   margin-left: 10px;
 }
 
